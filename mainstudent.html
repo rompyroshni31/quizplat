@@ -1,0 +1,258 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <title>Rompy Roshni</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/blogs.css">
+   
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+    body{
+        font-family: 'Crimson Pro', serif;
+    }
+    .container-fluid{
+        background-color:#000000;
+        border: 0px;
+    }
+    .nav{
+        margin-right: 50px;
+    }
+    .about,.blogs,.contact,.projects{
+        margin: 10px;
+        color: white;
+
+}
+.logo{
+     
+        height: 65.53012084960938px;
+        width: 65px;
+        left: 10px;
+        top: 77px;
+        padding-left: 0%;
+        border-radius: nullpx;
+        }
+        ul{
+            font-size: 150%;
+            padding: 10px;
+            padding-right: 10px;
+        }
+        th, td {
+    padding: 50px;
+   
+  }
+  .blog-cards{
+    margin-left: 150px;
+   
+}
+.body{
+  background-color: rgb(209, 209, 209);
+}
+  
+  .card {
+    position: relative;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.637);
+    box-shadow: rgba(0, 0, 0, 0.849) 4px 4px 10px 10px;
+    border-radius: 5px;
+    height: 390px;
+    width: 310px;
+  }
+  
+  .card__title {
+    margin:  auto 9px;
+    color: rgb(31, 30, 30);
+    
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .card__img {
+    width: 350px;
+    height: 200px;
+    max-width: 100%;
+    margin-top: 5px;
+    margin-bottom: -10px;
+    border: black 12px;
+    border-radius: 5px;
+  }
+  
+  .card__text {
+    margin: 20px ;
+    color: #1d1b1b;
+    font-size: 17px;
+  }
+  
+  .card__btn {
+      padding: 10px 15px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      
+      font-size: 20px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: #0000009c;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px rgba(153, 153, 153, 0.411);
+    }
+    
+    /* .card_btn:hover {background-color: #000000}
+    
+    .card_btn:active {
+      background-color: #0000009c;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    } */
+  
+.card_btn:hover:hover {background-color: #f7f7f7}
+
+.card__btn:active {
+  background-color: #ffffff;
+  box-shadow: 0 5px #666;
+  transform: translateY(7px);
+}
+  
+  /**
+   * Card #15
+   */
+  .card--15 {
+    overflow: hidden;
+    transition: all 0.3s;
+    
+  }
+  .card--15 .card__text,
+  .card--15 .card__title,
+  .card--15 .card__btn,
+  .card--15 .card__img {
+    transition: all 0.3s ease-in-out;
+  }
+  .card--15:hover {
+    background-color: transparent;
+    
+    background-size: cover, 10% 10%;
+    background-position: center;
+    background-blend-mode: overlay;
+  }
+  .card--15:hover .card__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blanchedalmond;
+    }
+
+  .card--15:hover .card__text {
+    color: rgb(255, 255, 255);
+    transform: translate3d(0, -20px, 0) scale(1.1);
+  }
+  .card--15:hover .card__img {
+    opacity: 80;
+    transform: scale(3);
+  }
+
+  
+  .card--15:hover .card__btn {
+    transform: translate3d(0, -10px, 0) scale(0.7);
+    font-size: 20px;
+    background-color: #ffffff9c;
+    font-size: 40px;
+
+  }
+        
+@media screen and (max-width: 600px) {
+  .blog-cards{
+    margin-left: 150px;
+   
+}
+  
+}
+
+
+
+
+
+
+
+
+</style>
+<body>
+    <!-- navbar-area -->
+ <nav class="navbar navbar-inverse">
+     <center>
+
+        <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#"> <a href="indexmain.html">
+              <img class="logo" src="pexels-magda-ehlers-1337384.jpg" alt="logo"></a>
+            </div>
+            
+            <ul class="nav navbar-nav navbar-right font-italic">
+              <li><a href="#"><span class="about"></span> About Us</a></li>
+              <li><a href=""><span class="blogs"></span> Help</a></li>
+              <li><a href="#"><span class="projects"></span>Settings</a></li>
+              <li><a href="#"><span class="contact"></span> Contact</a></li>
+            </ul>
+          </div>
+
+     </center>
+ </nav>
+ 
+ <h2 style="margin-left: -10x;font-size: 50px;text-align: center;text-shadow: rgba(116, 116, 116, 0.74) 5px;">Welcome Student!</h2>
+
+ 
+<table class="blog-cards">
+    <tr>
+        <td>
+            <div class="card card--15">
+                <h2 class="card__title" >Quiz</h2>
+                <img class="card__img" src="pexels-ann-h-1887995.jpg" alt="">
+                <p class="card__text">Ready to compete for the Quiz Questions?
+                </p>
+                <a class="card__btn" href="quiz.html" class="">Read More</a>
+              </div>
+
+        </td>
+
+        <td>
+            <div class="card card--15">
+                <h2 class="card__title">Courses</h2>
+                <img class="card__img" src="pexels-fauxels-3184170.jpg" alt="">
+                <p class="card__text">Enhance your Learnings with proper courses available</p>
+                <a class="card__btn" href="" class="">Coming Soon</a>
+              </div>
+
+
+            
+        </td> <td>
+            <div class="card card--15">
+                <h2 class="card__title">Games</h2>
+                <img class="card__img" src="pexels-pixabay-275033.jpg" alt="">
+                <p class="card__text" style="margin-bottom:20px ; ">A pinch of Entertainment with learning</p>
+                <a class="card__btn" href="" class="">Coming Soon</a>
+              </div>
+
+        </td>
+    </tr>
+    
+
+
+
+
+
+</table>
+
+ 
+</body>
+</html>
